@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838CC10D1D6407360083B654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CC10C1D6407360083B654 /* AppDelegate.swift */; };
+		838CC10F1D6407360083B654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CC10E1D6407360083B654 /* ViewController.swift */; };
+		838CC1121D6407360083B654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838CC1101D6407360083B654 /* Main.storyboard */; };
+		838CC1141D6407360083B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838CC1131D6407360083B654 /* Assets.xcassets */; };
+		838CC1171D6407360083B654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838CC1151D6407360083B654 /* LaunchScreen.storyboard */; };
+		838CC1201D6407BD0083B654 /* CGYAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CC11F1D6407BD0083B654 /* CGYAlertController.swift */; };
+		838CC1241D64444D0083B654 /* CGYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CC1231D64444D0083B654 /* CGYAlertView.swift */; };
+		838CC1261D6444B50083B654 /* CGYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CC1251D6444B50083B654 /* CGYButton.swift */; };
+		838CC1281D6444DC0083B654 /* CGYSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CC1271D6444DC0083B654 /* CGYSheetView.swift */; };
+		838CC12A1D645B430083B654 /* CGYAlertGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CC1291D645B430083B654 /* CGYAlertGlobal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		838CC1091D6407360083B654 /* CGYAlertExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGYAlertExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		838CC10C1D6407360083B654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		838CC10E1D6407360083B654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		838CC1111D6407360083B654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		838CC1131D6407360083B654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		838CC1161D6407360083B654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		838CC1181D6407360083B654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838CC11F1D6407BD0083B654 /* CGYAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGYAlertController.swift; sourceTree = "<group>"; };
+		838CC1231D64444D0083B654 /* CGYAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGYAlertView.swift; sourceTree = "<group>"; };
+		838CC1251D6444B50083B654 /* CGYButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGYButton.swift; sourceTree = "<group>"; };
+		838CC1271D6444DC0083B654 /* CGYSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGYSheetView.swift; sourceTree = "<group>"; };
+		838CC1291D645B430083B654 /* CGYAlertGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGYAlertGlobal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838CC1061D6407360083B654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		838CC1001D6407360083B654 = {
+			isa = PBXGroup;
+			children = (
+				838CC11E1D6407550083B654 /* Classes */,
+				838CC10B1D6407360083B654 /* CGYAlertExample */,
+				838CC10A1D6407360083B654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		838CC10A1D6407360083B654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838CC1091D6407360083B654 /* CGYAlertExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838CC10B1D6407360083B654 /* CGYAlertExample */ = {
+			isa = PBXGroup;
+			children = (
+				838CC10C1D6407360083B654 /* AppDelegate.swift */,
+				838CC10E1D6407360083B654 /* ViewController.swift */,
+				838CC1101D6407360083B654 /* Main.storyboard */,
+				838CC1131D6407360083B654 /* Assets.xcassets */,
+				838CC1151D6407360083B654 /* LaunchScreen.storyboard */,
+				838CC1181D6407360083B654 /* Info.plist */,
+			);
+			path = CGYAlertExample;
+			sourceTree = "<group>";
+		};
+		838CC11E1D6407550083B654 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				838CC11F1D6407BD0083B654 /* CGYAlertController.swift */,
+				838CC1231D64444D0083B654 /* CGYAlertView.swift */,
+				838CC1271D6444DC0083B654 /* CGYSheetView.swift */,
+				838CC1251D6444B50083B654 /* CGYButton.swift */,
+				838CC1291D645B430083B654 /* CGYAlertGlobal.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838CC1081D6407360083B654 /* CGYAlertExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838CC11B1D6407360083B654 /* Build configuration list for PBXNativeTarget "CGYAlertExample" */;
+			buildPhases = (
+				838CC1051D6407360083B654 /* Sources */,
+				838CC1061D6407360083B654 /* Frameworks */,
+				838CC1071D6407360083B654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGYAlertExample;
+			productName = CGYAlertExample;
+			productReference = 838CC1091D6407360083B654 /* CGYAlertExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838CC1011D6407360083B654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Chakery;
+				TargetAttributes = {
+					838CC1081D6407360083B654 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 838CC1041D6407360083B654 /* Build configuration list for PBXProject "CGYAlertExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 838CC1001D6407360083B654;
+			productRefGroup = 838CC10A1D6407360083B654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838CC1081D6407360083B654 /* CGYAlertExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838CC1071D6407360083B654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838CC1171D6407360083B654 /* LaunchScreen.storyboard in Resources */,
+				838CC1141D6407360083B654 /* Assets.xcassets in Resources */,
+				838CC1121D6407360083B654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838CC1051D6407360083B654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838CC1281D6444DC0083B654 /* CGYSheetView.swift in Sources */,
+				838CC10F1D6407360083B654 /* ViewController.swift in Sources */,
+				838CC10D1D6407360083B654 /* AppDelegate.swift in Sources */,
+				838CC1201D6407BD0083B654 /* CGYAlertController.swift in Sources */,
+				838CC1241D64444D0083B654 /* CGYAlertView.swift in Sources */,
+				838CC1261D6444B50083B654 /* CGYButton.swift in Sources */,
+				838CC12A1D645B430083B654 /* CGYAlertGlobal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		838CC1101D6407360083B654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838CC1111D6407360083B654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		838CC1151D6407360083B654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838CC1161D6407360083B654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838CC1191D6407360083B654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		838CC11A1D6407360083B654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838CC11C1D6407360083B654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CGYAlertExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccggyy.CGYAlertExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		838CC11D1D6407360083B654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CGYAlertExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccggyy.CGYAlertExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838CC1041D6407360083B654 /* Build configuration list for PBXProject "CGYAlertExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838CC1191D6407360083B654 /* Debug */,
+				838CC11A1D6407360083B654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838CC11B1D6407360083B654 /* Build configuration list for PBXNativeTarget "CGYAlertExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838CC11C1D6407360083B654 /* Debug */,
+				838CC11D1D6407360083B654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838CC1011D6407360083B654 /* Project object */;
+}

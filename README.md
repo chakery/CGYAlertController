@@ -6,7 +6,7 @@
 
 ## Using
 
-```
+```swift
 // Alert
 CGYAlertController(title: "提示", message: "这是一个简单的提示", preferredStyle: .Alert, actions:
     CGYAlertAction(title: "取消", style: .Cancel),
